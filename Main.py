@@ -23,7 +23,7 @@ def speak(audio):
 def wishme(): 
     hour = dt.now().hour
     if hour >=6 and hour<12:
-        speak("Good Morning Tanishq")
+        speak("Good Morning Divyansh")
         speak(f"The current time is {Time} and the current date is {Date}")
 
     elif hour >=12 and hour<18:
